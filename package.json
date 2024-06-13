@@ -1,31 +1,20 @@
 {
   "name": "archers",
-  "version": "1.0.0",
-  "description": "Site internet des archers sans limites",
-  "main": "index.js",
-  "type": "module",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/LaurenceLemaitre91/Archers.git"
-  },
-  "author": "Lemaitre Laurence",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LaurenceLemaitre91/Archers/issues"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "parcel": "^2.12.0",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "yarn": "^1.22.22"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.4"
   },
-  "homepage": "https://github.com/LaurenceLemaitre91/Archers#readme",
   "devDependencies": {
-    "process": "^0.11.10"
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
   }
 }
